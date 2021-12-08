@@ -221,6 +221,8 @@ function generateAuthors(){
       author: author,
       count: allAuthors[author]
     })
+
+  }
   const authorsList = document.querySelector(opt.listAuthorSelector);
   authorsList.innerHTML = templates.allAuthorsLinks(allAuthorsData);
 }
